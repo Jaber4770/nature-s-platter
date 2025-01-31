@@ -35,7 +35,7 @@
 
 <body>
     <header>
-        <div class="navbar bg-base-100 container mx-auto my-5">
+        <div class="navbar bg-base-100 container mx-auto my-5 lg:flex hidden">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -86,15 +86,19 @@
                 <button class="btn btn-success bg-primary-color text-white px-8">Register</button>
             </div>
         </div>
+        <div class="lg:hidden container mx-auto flex items-center justify-between pb-2 border-b-2 border-b-primary-color">
+            <img class="w-2/3" src="assets/logo-footer.png" alt="">
+            <i class="fa-solid fa-bars text-5xl"></i>
+        </div>
         <div>
             <div class="banner container mx-auto my-10">
-                <h1 class="text-center font-semibold text-6xl py-10">Freshness <span class="text-primary-color">
+                <h1 class="text-center font-semibold text-4xl lg:text-6xl py-10">Freshness <span class="text-primary-color">
                         You Can <br>
                         Count
                     </span> On, Prices You’ll Love!</h1>
             </div>
             <div class="bg-gradient-to-t from-[#EFEBE3] to-white bg-transparent">
-                <img class="h-screen mx-auto" src="assets/hero-vegetables.png" alt="">
+                <img class="lg:h-screen mx-auto" src="assets/hero-vegetables.png" alt="">
             </div>
         </div>
     </header>
@@ -251,9 +255,9 @@
             </div>
         </section>
         <!-- Arrival & Offers -->
-        <section class="mt-32 container mx-auto">
-            <h1 class="text-primary-color text-3xl font-semibold pb-8">Arrival & Offers</h1>
-            <div class="flex gap-10">
+        <section class="mt-32 container mx-auto hidden">
+            <h1 class="text-primary-color text-4xl font-semibold pb-8">Arrival & Offers</h1>
+            <div class="flex flex-col lg:flex-row gap-10">
                 <!-- daawat -->
                 <div class="flex justify-between bg-dawaat-color rounded-lg p-10 gap-16 flex-grow">
                     <div class="space-y-8">
