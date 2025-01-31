@@ -88,7 +88,7 @@
         </div>
         <div class="lg:hidden container mx-auto flex items-center justify-between p-2 border-b-2 border-b-primary-color">
             <img class="w-2/3" src="assets/logo-footer.png" alt="">
-            <i class="fa-solid fa-bars text-5xl"></i>
+            <div><i class="fa-solid fa-bars text-5xl"></i></div>
         </div>
         <div>
             <div class="banner lg:container mx-auto my-10">
@@ -265,7 +265,7 @@
             </div>
         </section>
         <!-- Arrival & Offers -->
-        <section class="mt-32 container mx-auto hidden">
+        <section class="lg:mt-32 container mx-auto hidden">
             <h1 class="text-primary-color text-4xl font-semibold pb-8">Arrival & Offers</h1>
             <div class="flex flex-col lg:flex-row gap-10">
                 <!-- daawat -->
@@ -292,21 +292,23 @@
         </section>
         <!-- news subscription -->
         <section class="container mx-auto">
-            <div class="relative top-56">
-                <div class="bg-[#EFEBE3] w-full rounded-lg flex justify-between items-center px-28 py-16">
+            <div class="relative lg:top-56 top-80 mx-3">
+                <div class="bg-[#EFEBE3] w-full rounded-lg flex flex-col lg:justify-between lg:items-center p-10 lg:px-28 lg:py-16">
                     <img src="assets/vegetable-busket.png" alt="">
                     <div class="space-y-7">
-                        <h1 class="font-semibold text-4xl">Get Grocery News!</h1>
-                        <p class="text-lg">Exclusive training tips, ticks, product deals and more.</p>
+                        <h1 class="lg:font-semibold lg:text-4xl text-2xl text-center font-bold py-5 text-primary-color">Get Grocery News!</h1>
+                        <p class="text-lg text-center lg:text-start">Exclusive training tips, ticks, product deals and more.</p>
                         <input type="email" placeholder="Email address..." class="p-5 rounded-lg w-full border-none outline-none"> <br>
-                        <button class="btn btn-success bg-primary-color text-white px-8">Subscribe</button>
+                        <div class="text-center">
+                            <button class="btn btn-success bg-primary-color text-white px-8">Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="bg-footer-color text-white pt-32 lg:pt-52">
-        <div class="container mx-auto pt-[140px] pb-5 lg:py-[140px]">
+        <div class="container mx-auto pt-[220px] pb-5 lg:py-[140px]">
             <div class="grid grid-cols-1 gap-10 p-2 lg:grid-cols-3 justify-between container">
                 <div class="space-y-4">
                     <img src="assets/logo-footer.png" alt="">
