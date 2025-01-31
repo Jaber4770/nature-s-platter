@@ -46,7 +46,7 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 lg:p-2 p-1 shadow ">
                         <li
                             class="hover:bg-primary-color transition-colors duration-500 rounded-md hover:text-white font-semibold">
                             <a>Product</a>
@@ -86,12 +86,12 @@
                 <button class="btn btn-success bg-primary-color text-white px-8">Register</button>
             </div>
         </div>
-        <div class="lg:hidden container mx-auto flex items-center justify-between pb-2 border-b-2 border-b-primary-color">
+        <div class="lg:hidden container mx-auto flex items-center justify-between p-2 border-b-2 border-b-primary-color">
             <img class="w-2/3" src="assets/logo-footer.png" alt="">
             <i class="fa-solid fa-bars text-5xl"></i>
         </div>
         <div>
-            <div class="banner container mx-auto my-10">
+            <div class="banner lg:container mx-auto my-10">
                 <h1 class="text-center font-semibold text-4xl lg:text-6xl py-10">Freshness <span class="text-primary-color">
                         You Can <br>
                         Count
@@ -104,9 +104,9 @@
     </header>
     <main>
         <!-- service section -->
-        <section class="container mx-auto my-32">
+        <section class="lg:container lg:mx-auto p-2 my-16 lg:my-32">
             <h1 class="text-primary-color text-3xl font-semibold pb-8">Services</h1>
-            <div class="flex flex-col lg:flex-row gap-10">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10">
                 <div class="bg-[#EFEBE3] rounded-lg p-8 text-center space-y-8">
                     <div class="">
                         <img class="mx-auto bg-white p-5 rounded-full" src="assets/service.png
@@ -136,118 +136,128 @@
             </div>
         </section>
         <!-- popular section -->
-        <section class="bg-[#EFEBE3] my-32">
-            <div class="container mx-auto py-36">
+        <section class="bg-[#EFEBE3] my-10 lg:my-32 p-2">
+            <div class="container mx-auto py-5 lg:py-36">
                 <h1 class="text-primary-color text-3xl font-semibold pb-8">Popular Products</h1>
                 <div class="flex flex-col lg:flex-row gap-5">
-                    <div
-                        class="rounded-lg p-10 bg-gradient-to-br from-primary-color via-gradient-primary-color-300 to-gradient-primary-color-50 relative">
-                        <div class="space-y-8">
+                    <div class="rounded-lg p-10 bg-gradient-to-br from-primary-color via-gradient-primary-color-300 to-gradient-primary-color-50 relative">
+                        <div class="lg:space-y-8">
                             <h1 class="text-3xl text-white font-semibold">30% off</h1>
                             <p class="w-2/3">Discover a world of treats, toyd and essestials handpicked for</p>
                             <button class="btn px-10">Buy Now</button>
                         </div>
-                        <img class="absolute right-0 bottom-0" src="assets/vegetable-offer.png" alt="">
+                        <img class="absolute right-0 bottom-0 w-1/2" src="assets/vegetable-offer.png" alt="">
                     </div>
-                    <div class="grid lg:grid-cols-3 grid-cols-2 gap-5">
+                    <div class="grid lg:grid-cols-3 grid-cols-2 gap-2 lg:gap-5">
 
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/onion.png" alt="">
+                        <div class="flex items-center bg-white p-1 lg:p-2 rounded-lg">
+                            <div class=" bg-gray-300 p-1 lg:p-2 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/onion.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Onion <span class="text-sm">1 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Onion <span class="text-sm">1 kg</span></h3>
+                                <span class="lg:text-lg lg:font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/potato.png" alt="">
+                        <div class="flex items-center bg-white p-1 lg:p-2 rounded-lg">
+                            <div class=" bg-gray-300 p-1 lg:p-2 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/potato.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Potato <span class="text-sm">2 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Potato <span class="text-sm">2 kg</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/tomato.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/tomato.png" alt="">
                             </div>
                             <div class="">
                                 <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Tomato <span class="text-sm">0.5 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Tomato <span class="text-sm">500 gm</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/tomato.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/tomato.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Tomato <span class="text-sm">0.5 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Tomato <span class="text-sm">500 gm</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/onion.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/onion.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Onion <span class="text-sm">1 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Onion <span class="text-sm">1 kg</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/potato.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/potato.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Potato <span class="text-sm">2 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Potato <span class="text-sm">2 kg</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/potato.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/potato.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Potato <span class="text-sm">2 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Potato <span class="text-sm">2 kg</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/tomato.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/tomato.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Tomato <span class="text-sm">0.5 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Tomato <span class="text-sm">500 gm</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
-                        <div class="flex items-center bg-white p-2 rounded-lg">
-                            <div class=" bg-gray-300 p-2 rounded-lg me-2">
-                                <img src="assets/onion.png" alt="">
+                        <div class="flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/onion.png" alt="">
                             </div>
                             <div class="">
-                                <i class="fa-solid fa-star text-orange-400 text-lg"></i>
-                                <span class="font-semibold text-lg">4.5</span>
-                                <h3 class="font-semibold text-2xl">Onion <span class="text-sm">1 KG</span></h3>
-                                <span class="text-lg font-semibold">$39.99</span>
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Onion <span class="text-sm">1 kg</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
+                            </div>
+                        </div>
+                        <div class="lg:hidden flex items-center bg-white lg:p-2 p-1 rounded-lg">
+                            <div class=" bg-gray-300 lg:p-2 p-1 rounded-lg me-2">
+                                <img class="w-[50px] lg:w-full" src="assets/onion.png" alt="">
+                            </div>
+                            <div class="">
+                                <i class="fa-solid fa-star text-orange-400 lg:text-lg"></i>
+                                <span class="font-semibold lg:text-lg">4.5</span>
+                                <h3 class="font-semibold lg:text-2xl">Onion <span class="text-sm">1 kg</span></h3>
+                                <span class="lg:text-lg font-semibold">$39.99</span>
                             </div>
                         </div>
                     </div>
