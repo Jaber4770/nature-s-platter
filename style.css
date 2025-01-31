@@ -3,3 +3,19 @@
 body {
     font-family: "sora", serif;
 }
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.bounce-effect {
+    animation: bounce 2s infinite ease-in-out;
+}
